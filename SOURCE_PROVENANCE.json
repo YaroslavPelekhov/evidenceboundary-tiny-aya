@@ -1,0 +1,8 @@
+{
+  "note": "Unchanged original scoring/prompt sources from the historical protocol; reduced public package is not the complete historical runtime.",
+  "sha256": {
+    "benchmark.py": "d233db1a77e02d44ae65688cffa25d90cb0fcad1b6eb6832128cd63fcc08277e",
+    "protocol_hosted.py": "b204be84eb26fd4c77ffcda771875b4cfd229d12d5baad2d6a0e933695b70c66",
+    "prepare.py": "ed6395523385fea31457c5344075b19d89529e916ba140a5993c126b21cf4c67"
+  }
+}

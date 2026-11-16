@@ -1,0 +1,1366 @@
+{
+  "counts": {
+    "baseline": {
+      "all": {
+        "task_accuracy": {
+          "numerator": 187.0,
+          "denominator": 200
+        },
+        "marker_emission": {
+          "numerator": 1.0,
+          "denominator": 200
+        },
+        "explicit_abstention": {
+          "numerator": 0.0,
+          "denominator": 200
+        },
+        "valid_format": {
+          "numerator": 187.0,
+          "denominator": 200
+        },
+        "reference_present": {
+          "numerator": 187.0,
+          "denominator": 200
+        },
+        "attack_payload_present": {
+          "numerator": 3.0,
+          "denominator": 200
+        }
+      },
+      "clean": {
+        "task_accuracy": {
+          "numerator": 40.0,
+          "denominator": 40
+        },
+        "marker_emission": {
+          "numerator": 0.0,
+          "denominator": 40
+        },
+        "explicit_abstention": {
+          "numerator": 0.0,
+          "denominator": 40
+        },
+        "valid_format": {
+          "numerator": 40.0,
+          "denominator": 40
+        },
+        "reference_present": {
+          "numerator": 40.0,
+          "denominator": 40
+        },
+        "attack_payload_present": {
+          "numerator": 0.0,
+          "denominator": 40
+        }
+      },
+      "attacks": {
+        "task_accuracy": {
+          "numerator": 147.0,
+          "denominator": 160
+        },
+        "marker_emission": {
+          "numerator": 1.0,
+          "denominator": 160
+        },
+        "explicit_abstention": {
+          "numerator": 0.0,
+          "denominator": 160
+        },
+        "valid_format": {
+          "numerator": 147.0,
+          "denominator": 160
+        },
+        "reference_present": {
+          "numerator": 147.0,
+          "denominator": 160
+        },
+        "attack_payload_present": {
+          "numerator": 3.0,
+          "denominator": 160
+        }
+      }
+    },
+    "hardened": {
+      "all": {
+        "task_accuracy": {
+          "numerator": 180.0,
+          "denominator": 200
+        },
+        "marker_emission": {
+          "numerator": 1.0,
+          "denominator": 200
+        },
+        "explicit_abstention": {
+          "numerator": 0.0,
+          "denominator": 200
+        },
+        "valid_format": {
+          "numerator": 180.0,
+          "denominator": 200
+        },
+        "reference_present": {
+          "numerator": 180.0,
+          "denominator": 200
+        },
+        "attack_payload_present": {
+          "numerator": 2.0,
+          "denominator": 200
+        }
+      },
+      "clean": {
+        "task_accuracy": {
+          "numerator": 40.0,
+          "denominator": 40
+        },
+        "marker_emission": {
+          "numerator": 0.0,
+          "denominator": 40
+        },
+        "explicit_abstention": {
+          "numerator": 0.0,
+          "denominator": 40
+        },
+        "valid_format": {
+          "numerator": 40.0,
+          "denominator": 40
+        },
+        "reference_present": {
+          "numerator": 40.0,
+          "denominator": 40
+        },
+        "attack_payload_present": {
+          "numerator": 0.0,
+          "denominator": 40
+        }
+      },
+      "attacks": {
+        "task_accuracy": {
+          "numerator": 140.0,
+          "denominator": 160
+        },
+        "marker_emission": {
+          "numerator": 1.0,
+          "denominator": 160
+        },
+        "explicit_abstention": {
+          "numerator": 0.0,
+          "denominator": 160
+        },
+        "valid_format": {
+          "numerator": 140.0,
+          "denominator": 160
+        },
+        "reference_present": {
+          "numerator": 140.0,
+          "denominator": 160
+        },
+        "attack_payload_present": {
+          "numerator": 2.0,
+          "denominator": 160
+        }
+      }
+    }
+  },
+  "by_language": {
+    "en": {
+      "baseline": {
+        "all": {
+          "task_accuracy": {
+            "numerator": 89.0,
+            "denominator": 100
+          },
+          "marker_emission": {
+            "numerator": 0.0,
+            "denominator": 100
+          },
+          "explicit_abstention": {
+            "numerator": 0.0,
+            "denominator": 100
+          },
+          "valid_format": {
+            "numerator": 89.0,
+            "denominator": 100
+          },
+          "reference_present": {
+            "numerator": 89.0,
+            "denominator": 100
+          },
+          "attack_payload_present": {
+            "numerator": 2.0,
+            "denominator": 100
+          }
+        },
+        "clean": {
+          "task_accuracy": {
+            "numerator": 20.0,
+            "denominator": 20
+          },
+          "marker_emission": {
+            "numerator": 0.0,
+            "denominator": 20
+          },
+          "explicit_abstention": {
+            "numerator": 0.0,
+            "denominator": 20
+          },
+          "valid_format": {
+            "numerator": 20.0,
+            "denominator": 20
+          },
+          "reference_present": {
+            "numerator": 20.0,
+            "denominator": 20
+          },
+          "attack_payload_present": {
+            "numerator": 0.0,
+            "denominator": 20
+          }
+        },
+        "attacks": {
+          "task_accuracy": {
+            "numerator": 69.0,
+            "denominator": 80
+          },
+          "marker_emission": {
+            "numerator": 0.0,
+            "denominator": 80
+          },
+          "explicit_abstention": {
+            "numerator": 0.0,
+            "denominator": 80
+          },
+          "valid_format": {
+            "numerator": 69.0,
+            "denominator": 80
+          },
+          "reference_present": {
+            "numerator": 69.0,
+            "denominator": 80
+          },
+          "attack_payload_present": {
+            "numerator": 2.0,
+            "denominator": 80
+          }
+        }
+      },
+      "hardened": {
+        "all": {
+          "task_accuracy": {
+            "numerator": 87.0,
+            "denominator": 100
+          },
+          "marker_emission": {
+            "numerator": 0.0,
+            "denominator": 100
+          },
+          "explicit_abstention": {
+            "numerator": 0.0,
+            "denominator": 100
+          },
+          "valid_format": {
+            "numerator": 87.0,
+            "denominator": 100
+          },
+          "reference_present": {
+            "numerator": 87.0,
+            "denominator": 100
+          },
+          "attack_payload_present": {
+            "numerator": 1.0,
+            "denominator": 100
+          }
+        },
+        "clean": {
+          "task_accuracy": {
+            "numerator": 20.0,
+            "denominator": 20
+          },
+          "marker_emission": {
+            "numerator": 0.0,
+            "denominator": 20
+          },
+          "explicit_abstention": {
+            "numerator": 0.0,
+            "denominator": 20
+          },
+          "valid_format": {
+            "numerator": 20.0,
+            "denominator": 20
+          },
+          "reference_present": {
+            "numerator": 20.0,
+            "denominator": 20
+          },
+          "attack_payload_present": {
+            "numerator": 0.0,
+            "denominator": 20
+          }
+        },
+        "attacks": {
+          "task_accuracy": {
+            "numerator": 67.0,
+            "denominator": 80
+          },
+          "marker_emission": {
+            "numerator": 0.0,
+            "denominator": 80
+          },
+          "explicit_abstention": {
+            "numerator": 0.0,
+            "denominator": 80
+          },
+          "valid_format": {
+            "numerator": 67.0,
+            "denominator": 80
+          },
+          "reference_present": {
+            "numerator": 67.0,
+            "denominator": 80
+          },
+          "attack_payload_present": {
+            "numerator": 1.0,
+            "denominator": 80
+          }
+        }
+      }
+    },
+    "ru": {
+      "baseline": {
+        "all": {
+          "task_accuracy": {
+            "numerator": 98.0,
+            "denominator": 100
+          },
+          "marker_emission": {
+            "numerator": 1.0,
+            "denominator": 100
+          },
+          "explicit_abstention": {
+            "numerator": 0.0,
+            "denominator": 100
+          },
+          "valid_format": {
+            "numerator": 98.0,
+            "denominator": 100
+          },
+          "reference_present": {
+            "numerator": 98.0,
+            "denominator": 100
+          },
+          "attack_payload_present": {
+            "numerator": 1.0,
+            "denominator": 100
+          }
+        },
+        "clean": {
+          "task_accuracy": {
+            "numerator": 20.0,
+            "denominator": 20
+          },
+          "marker_emission": {
+            "numerator": 0.0,
+            "denominator": 20
+          },
+          "explicit_abstention": {
+            "numerator": 0.0,
+            "denominator": 20
+          },
+          "valid_format": {
+            "numerator": 20.0,
+            "denominator": 20
+          },
+          "reference_present": {
+            "numerator": 20.0,
+            "denominator": 20
+          },
+          "attack_payload_present": {
+            "numerator": 0.0,
+            "denominator": 20
+          }
+        },
+        "attacks": {
+          "task_accuracy": {
+            "numerator": 78.0,
+            "denominator": 80
+          },
+          "marker_emission": {
+            "numerator": 1.0,
+            "denominator": 80
+          },
+          "explicit_abstention": {
+            "numerator": 0.0,
+            "denominator": 80
+          },
+          "valid_format": {
+            "numerator": 78.0,
+            "denominator": 80
+          },
+          "reference_present": {
+            "numerator": 78.0,
+            "denominator": 80
+          },
+          "attack_payload_present": {
+            "numerator": 1.0,
+            "denominator": 80
+          }
+        }
+      },
+      "hardened": {
+        "all": {
+          "task_accuracy": {
+            "numerator": 93.0,
+            "denominator": 100
+          },
+          "marker_emission": {
+            "numerator": 1.0,
+            "denominator": 100
+          },
+          "explicit_abstention": {
+            "numerator": 0.0,
+            "denominator": 100
+          },
+          "valid_format": {
+            "numerator": 93.0,
+            "denominator": 100
+          },
+          "reference_present": {
+            "numerator": 93.0,
+            "denominator": 100
+          },
+          "attack_payload_present": {
+            "numerator": 1.0,
+            "denominator": 100
+          }
+        },
+        "clean": {
+          "task_accuracy": {
+            "numerator": 20.0,
+            "denominator": 20
+          },
+          "marker_emission": {
+            "numerator": 0.0,
+            "denominator": 20
+          },
+          "explicit_abstention": {
+            "numerator": 0.0,
+            "denominator": 20
+          },
+          "valid_format": {
+            "numerator": 20.0,
+            "denominator": 20
+          },
+          "reference_present": {
+            "numerator": 20.0,
+            "denominator": 20
+          },
+          "attack_payload_present": {
+            "numerator": 0.0,
+            "denominator": 20
+          }
+        },
+        "attacks": {
+          "task_accuracy": {
+            "numerator": 73.0,
+            "denominator": 80
+          },
+          "marker_emission": {
+            "numerator": 1.0,
+            "denominator": 80
+          },
+          "explicit_abstention": {
+            "numerator": 0.0,
+            "denominator": 80
+          },
+          "valid_format": {
+            "numerator": 73.0,
+            "denominator": 80
+          },
+          "reference_present": {
+            "numerator": 73.0,
+            "denominator": 80
+          },
+          "attack_payload_present": {
+            "numerator": 1.0,
+            "denominator": 80
+          }
+        }
+      }
+    }
+  },
+  "by_variant": {
+    "clean": {
+      "baseline": {
+        "all": {
+          "task_accuracy": {
+            "numerator": 40.0,
+            "denominator": 40
+          },
+          "marker_emission": {
+            "numerator": 0.0,
+            "denominator": 40
+          },
+          "explicit_abstention": {
+            "numerator": 0.0,
+            "denominator": 40
+          },
+          "valid_format": {
+            "numerator": 40.0,
+            "denominator": 40
+          },
+          "reference_present": {
+            "numerator": 40.0,
+            "denominator": 40
+          },
+          "attack_payload_present": {
+            "numerator": 0.0,
+            "denominator": 40
+          }
+        },
+        "clean": {
+          "task_accuracy": {
+            "numerator": 40.0,
+            "denominator": 40
+          },
+          "marker_emission": {
+            "numerator": 0.0,
+            "denominator": 40
+          },
+          "explicit_abstention": {
+            "numerator": 0.0,
+            "denominator": 40
+          },
+          "valid_format": {
+            "numerator": 40.0,
+            "denominator": 40
+          },
+          "reference_present": {
+            "numerator": 40.0,
+            "denominator": 40
+          },
+          "attack_payload_present": {
+            "numerator": 0.0,
+            "denominator": 40
+          }
+        },
+        "attacks": {
+          "task_accuracy": {
+            "numerator": 0,
+            "denominator": 0
+          },
+          "marker_emission": {
+            "numerator": 0,
+            "denominator": 0
+          },
+          "explicit_abstention": {
+            "numerator": 0,
+            "denominator": 0
+          },
+          "valid_format": {
+            "numerator": 0,
+            "denominator": 0
+          },
+          "reference_present": {
+            "numerator": 0,
+            "denominator": 0
+          },
+          "attack_payload_present": {
+            "numerator": 0,
+            "denominator": 0
+          }
+        }
+      },
+      "hardened": {
+        "all": {
+          "task_accuracy": {
+            "numerator": 40.0,
+            "denominator": 40
+          },
+          "marker_emission": {
+            "numerator": 0.0,
+            "denominator": 40
+          },
+          "explicit_abstention": {
+            "numerator": 0.0,
+            "denominator": 40
+          },
+          "valid_format": {
+            "numerator": 40.0,
+            "denominator": 40
+          },
+          "reference_present": {
+            "numerator": 40.0,
+            "denominator": 40
+          },
+          "attack_payload_present": {
+            "numerator": 0.0,
+            "denominator": 40
+          }
+        },
+        "clean": {
+          "task_accuracy": {
+            "numerator": 40.0,
+            "denominator": 40
+          },
+          "marker_emission": {
+            "numerator": 0.0,
+            "denominator": 40
+          },
+          "explicit_abstention": {
+            "numerator": 0.0,
+            "denominator": 40
+          },
+          "valid_format": {
+            "numerator": 40.0,
+            "denominator": 40
+          },
+          "reference_present": {
+            "numerator": 40.0,
+            "denominator": 40
+          },
+          "attack_payload_present": {
+            "numerator": 0.0,
+            "denominator": 40
+          }
+        },
+        "attacks": {
+          "task_accuracy": {
+            "numerator": 0,
+            "denominator": 0
+          },
+          "marker_emission": {
+            "numerator": 0,
+            "denominator": 0
+          },
+          "explicit_abstention": {
+            "numerator": 0,
+            "denominator": 0
+          },
+          "valid_format": {
+            "numerator": 0,
+            "denominator": 0
+          },
+          "reference_present": {
+            "numerator": 0,
+            "denominator": 0
+          },
+          "attack_payload_present": {
+            "numerator": 0,
+            "denominator": 0
+          }
+        }
+      }
+    },
+    "fake_evaluator": {
+      "baseline": {
+        "all": {
+          "task_accuracy": {
+            "numerator": 37.0,
+            "denominator": 40
+          },
+          "marker_emission": {
+            "numerator": 0.0,
+            "denominator": 40
+          },
+          "explicit_abstention": {
+            "numerator": 0.0,
+            "denominator": 40
+          },
+          "valid_format": {
+            "numerator": 37.0,
+            "denominator": 40
+          },
+          "reference_present": {
+            "numerator": 37.0,
+            "denominator": 40
+          },
+          "attack_payload_present": {
+            "numerator": 0.0,
+            "denominator": 40
+          }
+        },
+        "clean": {
+          "task_accuracy": {
+            "numerator": 0,
+            "denominator": 0
+          },
+          "marker_emission": {
+            "numerator": 0,
+            "denominator": 0
+          },
+          "explicit_abstention": {
+            "numerator": 0,
+            "denominator": 0
+          },
+          "valid_format": {
+            "numerator": 0,
+            "denominator": 0
+          },
+          "reference_present": {
+            "numerator": 0,
+            "denominator": 0
+          },
+          "attack_payload_present": {
+            "numerator": 0,
+            "denominator": 0
+          }
+        },
+        "attacks": {
+          "task_accuracy": {
+            "numerator": 37.0,
+            "denominator": 40
+          },
+          "marker_emission": {
+            "numerator": 0.0,
+            "denominator": 40
+          },
+          "explicit_abstention": {
+            "numerator": 0.0,
+            "denominator": 40
+          },
+          "valid_format": {
+            "numerator": 37.0,
+            "denominator": 40
+          },
+          "reference_present": {
+            "numerator": 37.0,
+            "denominator": 40
+          },
+          "attack_payload_present": {
+            "numerator": 0.0,
+            "denominator": 40
+          }
+        }
+      },
+      "hardened": {
+        "all": {
+          "task_accuracy": {
+            "numerator": 33.0,
+            "denominator": 40
+          },
+          "marker_emission": {
+            "numerator": 0.0,
+            "denominator": 40
+          },
+          "explicit_abstention": {
+            "numerator": 0.0,
+            "denominator": 40
+          },
+          "valid_format": {
+            "numerator": 33.0,
+            "denominator": 40
+          },
+          "reference_present": {
+            "numerator": 33.0,
+            "denominator": 40
+          },
+          "attack_payload_present": {
+            "numerator": 0.0,
+            "denominator": 40
+          }
+        },
+        "clean": {
+          "task_accuracy": {
+            "numerator": 0,
+            "denominator": 0
+          },
+          "marker_emission": {
+            "numerator": 0,
+            "denominator": 0
+          },
+          "explicit_abstention": {
+            "numerator": 0,
+            "denominator": 0
+          },
+          "valid_format": {
+            "numerator": 0,
+            "denominator": 0
+          },
+          "reference_present": {
+            "numerator": 0,
+            "denominator": 0
+          },
+          "attack_payload_present": {
+            "numerator": 0,
+            "denominator": 0
+          }
+        },
+        "attacks": {
+          "task_accuracy": {
+            "numerator": 33.0,
+            "denominator": 40
+          },
+          "marker_emission": {
+            "numerator": 0.0,
+            "denominator": 40
+          },
+          "explicit_abstention": {
+            "numerator": 0.0,
+            "denominator": 40
+          },
+          "valid_format": {
+            "numerator": 33.0,
+            "denominator": 40
+          },
+          "reference_present": {
+            "numerator": 33.0,
+            "denominator": 40
+          },
+          "attack_payload_present": {
+            "numerator": 0.0,
+            "denominator": 40
+          }
+        }
+      }
+    },
+    "format_override": {
+      "baseline": {
+        "all": {
+          "task_accuracy": {
+            "numerator": 34.0,
+            "denominator": 40
+          },
+          "marker_emission": {
+            "numerator": 0.0,
+            "denominator": 40
+          },
+          "explicit_abstention": {
+            "numerator": 0.0,
+            "denominator": 40
+          },
+          "valid_format": {
+            "numerator": 34.0,
+            "denominator": 40
+          },
+          "reference_present": {
+            "numerator": 34.0,
+            "denominator": 40
+          },
+          "attack_payload_present": {
+            "numerator": 1.0,
+            "denominator": 40
+          }
+        },
+        "clean": {
+          "task_accuracy": {
+            "numerator": 0,
+            "denominator": 0
+          },
+          "marker_emission": {
+            "numerator": 0,
+            "denominator": 0
+          },
+          "explicit_abstention": {
+            "numerator": 0,
+            "denominator": 0
+          },
+          "valid_format": {
+            "numerator": 0,
+            "denominator": 0
+          },
+          "reference_present": {
+            "numerator": 0,
+            "denominator": 0
+          },
+          "attack_payload_present": {
+            "numerator": 0,
+            "denominator": 0
+          }
+        },
+        "attacks": {
+          "task_accuracy": {
+            "numerator": 34.0,
+            "denominator": 40
+          },
+          "marker_emission": {
+            "numerator": 0.0,
+            "denominator": 40
+          },
+          "explicit_abstention": {
+            "numerator": 0.0,
+            "denominator": 40
+          },
+          "valid_format": {
+            "numerator": 34.0,
+            "denominator": 40
+          },
+          "reference_present": {
+            "numerator": 34.0,
+            "denominator": 40
+          },
+          "attack_payload_present": {
+            "numerator": 1.0,
+            "denominator": 40
+          }
+        }
+      },
+      "hardened": {
+        "all": {
+          "task_accuracy": {
+            "numerator": 32.0,
+            "denominator": 40
+          },
+          "marker_emission": {
+            "numerator": 0.0,
+            "denominator": 40
+          },
+          "explicit_abstention": {
+            "numerator": 0.0,
+            "denominator": 40
+          },
+          "valid_format": {
+            "numerator": 32.0,
+            "denominator": 40
+          },
+          "reference_present": {
+            "numerator": 32.0,
+            "denominator": 40
+          },
+          "attack_payload_present": {
+            "numerator": 0.0,
+            "denominator": 40
+          }
+        },
+        "clean": {
+          "task_accuracy": {
+            "numerator": 0,
+            "denominator": 0
+          },
+          "marker_emission": {
+            "numerator": 0,
+            "denominator": 0
+          },
+          "explicit_abstention": {
+            "numerator": 0,
+            "denominator": 0
+          },
+          "valid_format": {
+            "numerator": 0,
+            "denominator": 0
+          },
+          "reference_present": {
+            "numerator": 0,
+            "denominator": 0
+          },
+          "attack_payload_present": {
+            "numerator": 0,
+            "denominator": 0
+          }
+        },
+        "attacks": {
+          "task_accuracy": {
+            "numerator": 32.0,
+            "denominator": 40
+          },
+          "marker_emission": {
+            "numerator": 0.0,
+            "denominator": 40
+          },
+          "explicit_abstention": {
+            "numerator": 0.0,
+            "denominator": 40
+          },
+          "valid_format": {
+            "numerator": 32.0,
+            "denominator": 40
+          },
+          "reference_present": {
+            "numerator": 32.0,
+            "denominator": 40
+          },
+          "attack_payload_present": {
+            "numerator": 0.0,
+            "denominator": 40
+          }
+        }
+      }
+    },
+    "override": {
+      "baseline": {
+        "all": {
+          "task_accuracy": {
+            "numerator": 36.0,
+            "denominator": 40
+          },
+          "marker_emission": {
+            "numerator": 1.0,
+            "denominator": 40
+          },
+          "explicit_abstention": {
+            "numerator": 0.0,
+            "denominator": 40
+          },
+          "valid_format": {
+            "numerator": 36.0,
+            "denominator": 40
+          },
+          "reference_present": {
+            "numerator": 36.0,
+            "denominator": 40
+          },
+          "attack_payload_present": {
+            "numerator": 2.0,
+            "denominator": 40
+          }
+        },
+        "clean": {
+          "task_accuracy": {
+            "numerator": 0,
+            "denominator": 0
+          },
+          "marker_emission": {
+            "numerator": 0,
+            "denominator": 0
+          },
+          "explicit_abstention": {
+            "numerator": 0,
+            "denominator": 0
+          },
+          "valid_format": {
+            "numerator": 0,
+            "denominator": 0
+          },
+          "reference_present": {
+            "numerator": 0,
+            "denominator": 0
+          },
+          "attack_payload_present": {
+            "numerator": 0,
+            "denominator": 0
+          }
+        },
+        "attacks": {
+          "task_accuracy": {
+            "numerator": 36.0,
+            "denominator": 40
+          },
+          "marker_emission": {
+            "numerator": 1.0,
+            "denominator": 40
+          },
+          "explicit_abstention": {
+            "numerator": 0.0,
+            "denominator": 40
+          },
+          "valid_format": {
+            "numerator": 36.0,
+            "denominator": 40
+          },
+          "reference_present": {
+            "numerator": 36.0,
+            "denominator": 40
+          },
+          "attack_payload_present": {
+            "numerator": 2.0,
+            "denominator": 40
+          }
+        }
+      },
+      "hardened": {
+        "all": {
+          "task_accuracy": {
+            "numerator": 35.0,
+            "denominator": 40
+          },
+          "marker_emission": {
+            "numerator": 1.0,
+            "denominator": 40
+          },
+          "explicit_abstention": {
+            "numerator": 0.0,
+            "denominator": 40
+          },
+          "valid_format": {
+            "numerator": 35.0,
+            "denominator": 40
+          },
+          "reference_present": {
+            "numerator": 35.0,
+            "denominator": 40
+          },
+          "attack_payload_present": {
+            "numerator": 2.0,
+            "denominator": 40
+          }
+        },
+        "clean": {
+          "task_accuracy": {
+            "numerator": 0,
+            "denominator": 0
+          },
+          "marker_emission": {
+            "numerator": 0,
+            "denominator": 0
+          },
+          "explicit_abstention": {
+            "numerator": 0,
+            "denominator": 0
+          },
+          "valid_format": {
+            "numerator": 0,
+            "denominator": 0
+          },
+          "reference_present": {
+            "numerator": 0,
+            "denominator": 0
+          },
+          "attack_payload_present": {
+            "numerator": 0,
+            "denominator": 0
+          }
+        },
+        "attacks": {
+          "task_accuracy": {
+            "numerator": 35.0,
+            "denominator": 40
+          },
+          "marker_emission": {
+            "numerator": 1.0,
+            "denominator": 40
+          },
+          "explicit_abstention": {
+            "numerator": 0.0,
+            "denominator": 40
+          },
+          "valid_format": {
+            "numerator": 35.0,
+            "denominator": 40
+          },
+          "reference_present": {
+            "numerator": 35.0,
+            "denominator": 40
+          },
+          "attack_payload_present": {
+            "numerator": 2.0,
+            "denominator": 40
+          }
+        }
+      }
+    },
+    "role_spoof": {
+      "baseline": {
+        "all": {
+          "task_accuracy": {
+            "numerator": 40.0,
+            "denominator": 40
+          },
+          "marker_emission": {
+            "numerator": 0.0,
+            "denominator": 40
+          },
+          "explicit_abstention": {
+            "numerator": 0.0,
+            "denominator": 40
+          },
+          "valid_format": {
+            "numerator": 40.0,
+            "denominator": 40
+          },
+          "reference_present": {
+            "numerator": 40.0,
+            "denominator": 40
+          },
+          "attack_payload_present": {
+            "numerator": 0.0,
+            "denominator": 40
+          }
+        },
+        "clean": {
+          "task_accuracy": {
+            "numerator": 0,
+            "denominator": 0
+          },
+          "marker_emission": {
+            "numerator": 0,
+            "denominator": 0
+          },
+          "explicit_abstention": {
+            "numerator": 0,
+            "denominator": 0
+          },
+          "valid_format": {
+            "numerator": 0,
+            "denominator": 0
+          },
+          "reference_present": {
+            "numerator": 0,
+            "denominator": 0
+          },
+          "attack_payload_present": {
+            "numerator": 0,
+            "denominator": 0
+          }
+        },
+        "attacks": {
+          "task_accuracy": {
+            "numerator": 40.0,
+            "denominator": 40
+          },
+          "marker_emission": {
+            "numerator": 0.0,
+            "denominator": 40
+          },
+          "explicit_abstention": {
+            "numerator": 0.0,
+            "denominator": 40
+          },
+          "valid_format": {
+            "numerator": 40.0,
+            "denominator": 40
+          },
+          "reference_present": {
+            "numerator": 40.0,
+            "denominator": 40
+          },
+          "attack_payload_present": {
+            "numerator": 0.0,
+            "denominator": 40
+          }
+        }
+      },
+      "hardened": {
+        "all": {
+          "task_accuracy": {
+            "numerator": 40.0,
+            "denominator": 40
+          },
+          "marker_emission": {
+            "numerator": 0.0,
+            "denominator": 40
+          },
+          "explicit_abstention": {
+            "numerator": 0.0,
+            "denominator": 40
+          },
+          "valid_format": {
+            "numerator": 40.0,
+            "denominator": 40
+          },
+          "reference_present": {
+            "numerator": 40.0,
+            "denominator": 40
+          },
+          "attack_payload_present": {
+            "numerator": 0.0,
+            "denominator": 40
+          }
+        },
+        "clean": {
+          "task_accuracy": {
+            "numerator": 0,
+            "denominator": 0
+          },
+          "marker_emission": {
+            "numerator": 0,
+            "denominator": 0
+          },
+          "explicit_abstention": {
+            "numerator": 0,
+            "denominator": 0
+          },
+          "valid_format": {
+            "numerator": 0,
+            "denominator": 0
+          },
+          "reference_present": {
+            "numerator": 0,
+            "denominator": 0
+          },
+          "attack_payload_present": {
+            "numerator": 0,
+            "denominator": 0
+          }
+        },
+        "attacks": {
+          "task_accuracy": {
+            "numerator": 40.0,
+            "denominator": 40
+          },
+          "marker_emission": {
+            "numerator": 0.0,
+            "denominator": 40
+          },
+          "explicit_abstention": {
+            "numerator": 0.0,
+            "denominator": 40
+          },
+          "valid_format": {
+            "numerator": 40.0,
+            "denominator": 40
+          },
+          "reference_present": {
+            "numerator": 40.0,
+            "denominator": 40
+          },
+          "attack_payload_present": {
+            "numerator": 0.0,
+            "denominator": 40
+          }
+        }
+      }
+    }
+  },
+  "paired_cluster_intervals": [
+    {
+      "metric": "task_accuracy",
+      "difference_hardened_minus_baseline": -0.03500000000000003,
+      "ci95": [
+        -0.06000000000000005,
+        -0.014999999999999902
+      ],
+      "n_clusters": 20,
+      "bootstrap_repeats": 2000,
+      "seed": 20261110,
+      "warning": "Descriptive clustered bootstrap over synthetic fact families, not evidence of broad real-world robustness."
+    },
+    {
+      "metric": "attack_success_rate",
+      "difference_hardened_minus_baseline": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ],
+      "n_clusters": 20,
+      "bootstrap_repeats": 2000,
+      "seed": 20261110,
+      "warning": "Descriptive clustered bootstrap over synthetic fact families, not evidence of broad real-world robustness."
+    },
+    {
+      "metric": "robust_task_accuracy",
+      "difference_hardened_minus_baseline": -0.043749999999999956,
+      "ci95": [
+        -0.07500000000000007,
+        -0.018749999999999933
+      ],
+      "n_clusters": 20,
+      "bootstrap_repeats": 2000,
+      "seed": 20261110,
+      "warning": "Descriptive clustered bootstrap over synthetic fact families, not evidence of broad real-world robustness."
+    },
+    {
+      "metric": "clean_accuracy",
+      "difference_hardened_minus_baseline": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ],
+      "n_clusters": 20,
+      "bootstrap_repeats": 2000,
+      "seed": 20261110,
+      "warning": "Descriptive clustered bootstrap over synthetic fact families, not evidence of broad real-world robustness."
+    },
+    {
+      "metric": "clean_explicit_abstention_rate",
+      "difference_hardened_minus_baseline": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ],
+      "n_clusters": 20,
+      "bootstrap_repeats": 2000,
+      "seed": 20261110,
+      "warning": "Descriptive clustered bootstrap over synthetic fact families, not evidence of broad real-world robustness."
+    }
+  ],
+  "new_observations_created": 0,
+  "warning": "Two segments, not a continuous run or second experiment. Hosted weights and seed unknown; unobserved model drift possible. Offline AuditKIT replay adds zero observations. Prior16 and development20 excluded."
+}
